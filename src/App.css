@@ -8,25 +8,25 @@ body {
   margin: 16px;
 }
 
-.phone-name {
+.movie-name {
   padding: 16px;
   font-size: 48px;
   margin-bottom: 0px;
 }
 
-.phone-company {
+.movie-summary {
   font-size: 32px;
   color: grey;
   margin-top: 0px;
 }
 
-.phone-picture {
+.movie-picture {
   height: 540px;
   width: 750px;
   object-fit: contain;
 }
 
-.phone-container {
+.movie-container {
   background-color: white;
   width: 750px;
   border-radius: 12px;
@@ -34,7 +34,7 @@ body {
   box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
 }
 
-.phone-list-container {
+.movie-list-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -42,39 +42,5 @@ body {
   margin: 24px;
 }
 
-.phone-add-cart {
-  font-size: 24px;
-  margin-bottom: 24px;
-}
-
-.cart-item-container {
-  display: flex;
-  background-color: white;
-  text-align: left;
-  width: 100%;
-  border-radius: 12px;
-}
-
-.cart-item-picture {
-  height: 240px;
-  width: 350px;
-  object-fit: contain;
-}
-
-.cart-item-company {
-  color: grey;
-  margin-top: 0px;
-}
-
-.cart-item-quantity > span {
-  color: grey;
-  font-size: 14px;
-}
-
-.cart-checkout {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
 
    
