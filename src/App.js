@@ -17,7 +17,7 @@ import { API } from "./global";
    console.log (movies);
    return (
      <div className="App">
-    <div className="movie-list-container">{movies.map((m)=>(<Film movie ={m}/>))}</div>
+    <div className="movielist-container">{movies.map((m)=>(<Film movie ={m}/>))}</div>
      </div>
  );
  }
